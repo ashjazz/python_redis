@@ -12,10 +12,11 @@ def g():
     # num2 = eval("x + y", globals())
     num2 = eval("x + y", globals(), locals())
     print num2
+    print "Ashxxxxxxxxxxxxxxx"
+    print locals()["x"]
+    print locals()["y"] 
+    print globals()["x"]
+    print globals()["y"] 
 
 g()
 
-print locals()["x"]
-print locals()["y"] 
-print globals()["x"]
-print globals()["y"] 
