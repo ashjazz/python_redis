@@ -14,3 +14,8 @@ def g():
     print num2
 
 g()
+
+print locals()["x"]
+print locals()["y"] 
+print globals()["x"]
+print globals()["y"] 
